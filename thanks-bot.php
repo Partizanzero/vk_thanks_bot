@@ -10,10 +10,10 @@ if (!isset($_REQUEST)) {
 $confirmation_token = 'ваш_токен';
 
 //Ключ доступа сообщества
-$token = 'ваш ключ';
+$token = 'ваш ключ доступа';
 
 // Secret key
-$secretKey = 'testSecureKey';
+$secretKey = 'ваш секретный ключ';
 
 //Получаем и декодируем уведомление
 $data = json_decode(file_get_contents('php://input'));
